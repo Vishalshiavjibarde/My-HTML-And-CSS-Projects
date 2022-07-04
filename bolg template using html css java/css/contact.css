@@ -1,0 +1,20 @@
+.contact-content{
+
+    /* height: 100vh; */
+    background-color: rgb(233, 245, 240);
+    display: block;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    font-style: italic;   
+    overflow:hidden
+}
+
+.contact-content::after{
+position: absolute;
+width: 100%;
+height: inherit;
+border-radius: 12px;
+z-index: -1;
+}
+

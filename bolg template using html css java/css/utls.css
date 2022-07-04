@@ -1,0 +1,53 @@
+.root{
+    --main-bg-color:brown;
+}
+
+
+.max-width-1{ 
+    max-width:80vw;    
+}
+
+
+.max-width-2{
+    max-width: 60vw;
+
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 2px 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: unset;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+.btn:hover{
+    color: blanchedalmond;
+    background-color: rgb(0, 0, 0);
+}
+
+.form-input{
+    padding: 3px 11px;
+    font-size: 13px;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-family: monospace;
+}
+.form-box input,textarea{
+    width: 45vw;
+    padding: 10px 5px;
+    margin: 6px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
