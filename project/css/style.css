@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+:root{
+    --main-bg-color: #40b0ca;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    /* color:2px solid red; */
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+align-items: center;
+} 
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+    list-style: none;
+}
+
+
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search button{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 4px;
+    margin: 0 12pxpx 0 56px;
+    padding: 0 12px;
+    
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Noto Serif', serif;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    /* justify-content: center; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 9vw;
+    margin: 0 31px;
+}
+.card-item img{
+    width: 205px;
+
+}
+.card h2{
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: aliceblue;
+    font-family: 'Big Shoulders Display', cursive;
+}
