@@ -1,0 +1,110 @@
+@media screen and (max-width:300px){
+    .left{
+        text-align: center;
+        padding-left: 54px;
+        margin: -21px;
+        width: 130px;
+        height: 50px;
+    }
+    .left img{
+        height: 149px;
+        margin: -30px -72px
+    }
+    .navbar {
+        font-style: oblique;
+        margin-top: 40px;    
+        color: chartreuse;
+    }
+   
+    .right{
+        margin-top: 118px;
+        display: flex;
+        flex-direction: row;
+        left: -10px;
+        margin-inline-start: 30px;
+        width: 247px;
+        height: 28px;
+    }
+    .first{
+        margin-top: 30px;
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+    }
+    .main{
+        font-size: 16px;
+        text-align: center;
+        width: 160px;
+        margin: -149px 46px;
+        color: blueviolet;
+    }
+    .info{
+        top: 246px;
+        margin: 19px 1px;
+        width: 153px;
+        font-size: 12px;
+    }
+    .start{
+        top: 328px;
+        margin: 0px 73px;
+        width: 99px;
+        height: 23px;
+        font-size: 9px;
+    }
+
+    }
+@media screen and (max-width:700px){
+    .left{
+        text-align: center;
+        padding-left: 20px;
+        margin: -21px;
+        width: 130px;
+        height: 50px;
+    }
+    .left img{
+        height: 190px;
+        margin: -37px -80px
+    }
+    .navbar {
+        font-style: oblique;
+        margin-top: 10px;    
+        color: chartreuse;
+    }
+   
+    .right{
+        margin-top: 118px;
+        display: flex;
+        flex-direction: row;
+        left: -10px;
+        margin-inline-start: 30px;
+        width: 247px;
+        height: 28px;
+    }
+    .first{
+        margin-top: 30px;
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+    }
+    .main{
+        font-size: 16px;
+        text-align: center;
+        width: 160px;
+        margin: -149px 46px;
+        color: blueviolet;
+    }
+    .info{
+        top: 246px;
+        margin: 19px 1px;
+        width: 153px;
+        font-size: 12px;
+    }
+    .start{
+        top: 328px;
+        margin: 0px 73px;
+        width: 99px;
+        height: 23px;
+        font-size: 9px;
+    }
+
+    }
+
+
