@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(235, 240, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(550px);
+    transform: 1s;
+}
+.card:hover{
+    transform:perspective(2500px);
+}
+.card:hover .front{
+    transform: rotateY(-180deg);
+}
+.card:hover .info{
+    visibility: hidden;
+}
+.front{
+    background-color: rgb(223 183 217);
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+    transform-origin: left;
+    transition: 0.6s;
+    
+}
+.back{
+    font-style: italic;
+    text-align: center;
+    margin: 30px;
+    
+}
+.card2{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(550px);
+    transform: 1s;
+}
+.card2:hover{
+    transform:perspective(2500px) ;    
+}
+.card2:hover .mid{
+    transform: rotateY(-180deg);
+}
+.card2:hover .back{
+    visibility: hidden;
+}
+.mid{
+    background-image: url("front.jpg");
+    position:absolute;    
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 350px;
+    transform-origin: left;
+    transition: 0.6s;
+}
+
